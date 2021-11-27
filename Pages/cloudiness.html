@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/Pages/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
+  <title>Cloudiness</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/Pages/comparison.html">Comparison</a>
+            <a class="nav-link" href="/Pages/comparison.html">Comparisons</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/Pages/data.html">Data</a>
@@ -42,50 +42,56 @@
       </div>
     </div>
   </nav>
-
+  
+  <div class="container">
   <!-- Left Side -->
-  <div class="row">
-    <div class="col-8" id="left_side">
-      <br><br>
-      <h1>Cloudiness</h1>
-      <hr>
-      <div class="row">
-        <img class="mr-3 img-fluid" width="auto" src="/Resources/assets/images/Fig3.png"
-          alt="City Latitude vs. Cloudiness">
-        <div class="col">
-          <p>When analyzing this plot, we can see that there is no association between the city latitude and the
-            cloudiness level (%).
-          </p>
+    <div class="row">
+      <div class="col-8" id="left_side">
+        <br><br>
+        <h1>Cloudiness</h1>
+        <hr>
+        <div class="row">
+          <img class="mr-3 img-fluid" width="auto" src="/Resources/assets/images/Fig3.png"
+            alt="City Latitude vs. Cloudiness">
+          <div class="col">
+            <p>When analyzing this plot, we can see that there is no association between the city latitude and the
+              cloudiness level (%).
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
     <!-- Right Side -->
-    <div class="col-4 ml-auto" id="right_side">
-      <br><br>
-      <h1>Visualizations</h1>
-      <hr>
-      <div class="row">
-        <div class="col">
-          <a href="/Pages/max_temp.html"><img class="mr-3 img-fluid" width="auto"
-              src="/Resources/assets/images/Fig1.png" alt="City Latitude vs. Max Temperature Image"></a>
+      <div class="col-4 ml-auto" id="right_side">
+        <br><br>
+        <h1>Visualizations</h1>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <h6>Max Temperature</h6>
+            <a href="/Pages/max_temp.html"><img class="mr-3 img-fluid" width="auto"
+                src="/Resources/assets/images/Fig1.png" alt="City Latitude vs. Max Temperature Image"></a>
+          </div>
+
+          <div class="col">
+            <h6>Humidity</h6>
+            <a href="/Pages/humidity.html"><img class="mr-3 img-fluid" width="auto"
+                src="/Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity Image"></a>
+          </div>
         </div>
 
-        <div class="col">
-          <a href="/Pages/humidity.html"><img class="mr-3 img-fluid" width="auto"
-              src="/Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity Image"></a>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col">
+            <h6>Cloudiness</h6>
+            <a href="/Pages/cloudiness.html"><img class="mr-3 img-fluid" width="auto"
+                src="/Resources/assets/images/Fig3.png" alt="City Latitude vs. Cloudiness Image"></a>
+          </div>
 
-      <div class="row">
-        <div class="col">
-          <a href="/Pages/cloudiness.html"><img class="mr-3 img-fluid" width="auto"
-              src="/Resources/assets/images/Fig3.png" alt="City Latitude vs. Cloudiness Image"></a>
-        </div>
-
-        <div class="col">
-          <a href="/Pages/wind.html"><img class="mr-3 img-fluid" width="auto" src="/Resources/assets/images/Fig4.png"
-              alt="City Latitude vs. Wind Speed Image"></a>
+          <div class="col">
+            <h6>Wind Speed</h6>
+            <a href="/Pages/wind.html"><img class="mr-3 img-fluid" width="auto" src="/Resources/assets/images/Fig4.png"
+                alt="City Latitude vs. Wind Speed Image"></a>
+          </div>
         </div>
       </div>
     </div>
