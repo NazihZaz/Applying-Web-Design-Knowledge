@@ -1,0 +1,88 @@
+.navbar-brand {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: rgb(42, 186, 190);
+    font-size:30px;
+    font-weight: bold;
+    color:white !important;
+}
+
+#navbar-box {
+    background-color: white !important; 
+}
+
+#summary {
+    float:left;
+}
+
+.navbar-nav{
+    position:absolute;
+    right:100px;
+    font-weight: bold;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#data p,th,td{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: lightgray;
+    
+}
+
+#data, #visualization{
+    position:relative;
+    top:50px;
+}
+
+.container{
+    background-color: white;
+}
+
+.col-7{
+    position:absolute;
+    left:100px;
+    top:100px;
+    background-color: white;
+    
+}
+
+.col-4{
+    position:absolute;
+    right:100px;
+    top:100px;
+    background-color: white;
+}
+
+h1{
+    color:rgb(42, 186, 190);
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:70px;
+}
+
+h4{
+    font-size: 45px;
+    color:rgb(42, 186, 190);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+@media(max-width:640px){
+    #navbar-box{
+        padding:10px;
+    }
+    ul{
+        visibility: hidden;
+    }
+}
